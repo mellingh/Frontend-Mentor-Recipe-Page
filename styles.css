@@ -85,18 +85,18 @@ table {
 }
 
 .prep-time-list {
-  padding-left: 35px; /* Remove default padding */
+  padding-left: 30px;
 }
 
 .prep-time-list li {
-  padding-left: 15px; /* Increase the padding to create space between bullet and text */
+  padding-left: 15px;
 }
 .prep-time-list li:not(:last-child) {
   margin-bottom: 10px;
 }
 
 .prep-time-list li::marker {
-  font-size: 0.8rem; /* Adjust the size of the bullet points */
+  font-size: 0.8rem;
 }
 
 .ingredients {
@@ -104,11 +104,11 @@ table {
 }
 
 .ingredients-list {
-  padding-left: 25px; /* Remove default padding */
+  padding-left: 25px;
 }
 
 .ingredients-list li {
-  padding-left: 15px; /* Increase the padding to create space between bullet and text */
+  padding-left: 15px;
 }
 
 .ingredients-list li:not(:last-child) {
@@ -116,7 +116,7 @@ table {
 }
 
 .ingredients-list li::marker {
-  font-size: 0.8rem; /* Adjust the size of the bullet points */
+  font-size: 0.8rem;
 }
 
 .instructions {
@@ -124,7 +124,7 @@ table {
 }
 
 .instructions-list {
-  padding-left: 25px; /* Remove default padding */
+  padding-left: 25px;
 }
 
 .instructions-list li {
@@ -141,7 +141,7 @@ table {
 }
 
 .nutrition-table {
-  width: 100%; /* Make table width 100% */
+  width: 100%;
 }
 
 .move-cell-one {
