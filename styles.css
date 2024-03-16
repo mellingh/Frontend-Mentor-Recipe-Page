@@ -1,0 +1,155 @@
+/*
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+.container-recipe {
+  width: 700px;
+  height: fit-content;
+  margin: 100px auto;
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Young Serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin-bottom: 15px;
+  color: hsl(14, 45%, 36%);
+}
+
+hr {
+  border: 1px solid;
+  color: hsl(30, 18%, 87%);
+}
+
+p,
+ul,
+ol,
+table {
+  font-family: Outfit;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+}
+
+.title {
+  font-size: 2.45rem;
+  margin-bottom: 0px;
+  color: hsl(24, 5%, 18%);
+}
+
+.intro {
+  font-size: 1rem;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.heading-prep {
+  font-family: Outfit;
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+  margin: 10px;
+}
+
+.prep-time {
+  max-width: 100%;
+  background-color: hsl(330, 100%, 98%);
+  padding: 10px 15px;
+  margin-top: 0;
+  border-radius: 10px;
+}
+
+.prep-time-list {
+  padding-left: 35px; /* Remove default padding */
+}
+
+.prep-time-list li {
+  padding-left: 15px; /* Increase the padding to create space between bullet and text */
+}
+.prep-time-list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.prep-time-list li::marker {
+  font-size: 0.8rem; /* Adjust the size of the bullet points */
+}
+
+.ingredients {
+  margin-bottom: 30px;
+}
+
+.ingredients-list {
+  padding-left: 25px; /* Remove default padding */
+}
+
+.ingredients-list li {
+  padding-left: 15px; /* Increase the padding to create space between bullet and text */
+}
+
+.ingredients-list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.ingredients-list li::marker {
+  font-size: 0.8rem; /* Adjust the size of the bullet points */
+}
+
+.instructions {
+  margin-bottom: 30px;
+}
+
+.instructions-list {
+  padding-left: 25px; /* Remove default padding */
+}
+
+.instructions-list li {
+  padding-left: 15px;
+}
+
+.instructions-list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.instructions-list li::marker {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
+
+.nutrition-table {
+  width: 100%; /* Make table width 100% */
+}
+
+.move-cell-one {
+  width: min-content;
+  padding-left: 30px;
+}
+
+.move-cell-two {
+  padding-left: 55px;
+  color: hsl(14, 45%, 36%);
+}
